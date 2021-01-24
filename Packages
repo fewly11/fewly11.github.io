@@ -1,0 +1,19 @@
+Name: CHPUBG
+Package: com.fewly11chpubg
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 9.0)
+Version: 1.5.1
+Architecture: iphoneos-arm
+Description: cleans PUBG game files to avoid absentee ban
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chpubgDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chpubgDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: fewly11
+Author: fewly11 <abdulmajeed-35@hotmail.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 1533
+dev: thx
+Filename: ./debs/chpubg.deb
+Size: 986026
+MD5sum: e1b98c163f1cebb6440b5d7a372ac6ad
