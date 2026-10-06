@@ -1,33 +1,236 @@
 <!DOCTYPE html>
-<html><head>
-
-<title>Repo by fewly (fewly)</title>
-
-<meta name='viewport' content='width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;'/>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-  <link href="JS/styles.css" rel="stylesheet">
-  <script src="JS/jquery-3.2.1.min.js"></script>
-  <script src="JS/description.js?_=4654654"></script>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Fewly Repo • Kho Tweak Dopamine Jailbreak & iOS</title>
   
+  <meta name="description" content="Kho lưu trữ tweak, tiện ích và ứng dụng tối ưu cho iPhone Jailbreak Dopamine Rootless (iOS 15.0 - 16.6.5), tương thích Sileo & Zebra.">
+  <meta name="keywords" content="Dopamine jailbreak, rootless, sileo repo, cydia repo, iphone jailbreak, fewly repo, ios 15, ios 16">
+  <meta name="theme-color" content="#07090e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" type="image/png" href="CydiaIcon.png">
+  <link rel="apple-touch-icon" href="CydiaIcon.png">
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Fewly Repo • Dopamine Jailbreak">
+  <meta property="og:description" content="Kho lưu trữ tweak iOS hỗ trợ Dopamine Jailbreak Rootless & Sileo.">
+  <meta property="og:image" content="https://fewly11.github.io/CydiaIcon.png">
+  <meta property="og:url" content="https://fewly11.github.io/">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-				   <p style="text-align:center;"><IMG height=250 width=400 border=1 src="now/fewly.png" > </A>
-<p style="text-align:center;"><u><mark><strong><MARQUEE behavior=alternate direction=left scrollAmount=3 width="4%"><font face=Webdings></font></MARQUEE><MARQUEE scrollAmount=1 direction=left width="2%">| | |</MARQUEE> ミ★ƒєωℓу1★彡 <MARQUEE scrollAmount=1 direction=right width="2%">| | |</MARQUEE><MARQUEE behavior=alternate direction=right scrollAmount=3 width="4%"><font face=Webdings></font></MARQUEE>
-		</div></a>
-	</fieldset>
-	<fieldset>
-		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=http://fewly11.github.io/">
-				    <p style="text-align:center;"><img class="icon" src="now/CydiaIcon.png"/>
-<p style="text-align:center;"><mark><strong><marquee behavior="alternate" width="10%"></marquee>Add Source Cydia<marquee behavior="alternate" width="10%"></marquee>
-<a style="text-decoration:none"
-	</fieldset>
-	<fieldset>
-<p style="text-align:center;"><strong>🍏🍏🍏kho lưu trữ dữ liệu miễn phí🍏🍏🍏</strong></p>	
-<center>
-<audio controls autoplay>
- <source src="le_tinh_remix_chu_duyen_1879231.mp3">
- </audio>
-<center>
-	</body>
+
+  <!-- Top Navigation -->
+  <nav class="site-nav">
+    <div class="container nav-wrap">
+      <div class="nav-brand">
+        <img src="CydiaIcon.png" alt="Fewly Repo Icon" class="brand-icon">
+        <span>Fewly Repo</span>
+        <span class="brand-badge">Dopamine v2</span>
+      </div>
+      <div class="nav-actions">
+        <button class="btn-mini-copy copy-repo-btn" title="Sao chép URL nguồn">
+          Sao chép URL
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-glow"></div>
+        <img src="now/fewly.png" alt="Avatar Fewly" class="hero-avatar" onerror="this.src='CydiaIcon.png'">
+      </div>
+
+      <h1 class="hero-title">Fewly Repository</h1>
+      <p class="hero-subtitle">
+        Kho lưu trữ Tweak, Tiện ích & Trò chơi tối ưu cho <strong>iPhone Jailbreak Dopamine (Rootless)</strong> và hệ điều hành iOS.
+      </p>
+
+      <div class="hero-tags">
+        <span class="tag-pill dopamine pulse-dot">Hỗ trợ Dopamine Rootless</span>
+        <span class="tag-pill">iOS 15.0 – 16.6.5</span>
+        <span class="tag-pill">Sileo &amp; Zebra</span>
+        <span class="tag-pill">ARM64</span>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="action-grid">
+        <a href="sileo://source/https://fewly11.github.io/" class="btn-repo btn-sileo" id="btnSileo">
+          <div class="btn-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+            </svg>
+          </div>
+          <span>Thêm vào Sileo (Dopamine)</span>
+        </a>
+
+        <a href="zbra://sources/add/https://fewly11.github.io/" class="btn-repo btn-zebra" id="btnZebra">
+          <div class="btn-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="M6 8h4m-4 4h8m-8 4h12"></path>
+            </svg>
+          </div>
+          <span>Thêm vào Zebra</span>
+        </a>
+
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://fewly11.github.io/" class="btn-repo btn-cydia" id="btnCydia">
+          <div class="btn-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 12h8"></path>
+            </svg>
+          </div>
+          <span>Thêm vào Cydia</span>
+        </a>
+
+        <button class="btn-repo btn-copy copy-repo-btn" id="btnCopy">
+          <div class="btn-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          </div>
+          <span>Sao chép Link Nguồn</span>
+        </button>
+      </div>
+
+      <!-- Repo URL Display -->
+      <div class="repo-url-bar">
+        <span class="repo-url-text">https://fewly11.github.io/</span>
+        <button class="btn-mini-copy copy-repo-btn">Copy</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Dopamine Jailbreak Guide Card -->
+    <section class="info-section">
+      <div class="glass-card dopamine-banner">
+        <div class="banner-header">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <h2 class="banner-title">Hướng dẫn kết nối với Dopamine (Rootless)</h2>
+        </div>
+        <p class="banner-desc">
+          Repo đã được cấu hình chuẩn kiến trúc <strong>iphoneos-arm64</strong> &amp; <strong>iphoneos-arm</strong> đầy đủ mã băm SHA256 để tương thích hoàn toàn với trình quản lý gói Sileo trên bản Jailbreak Dopamine (iOS 15 - 16.6.5).
+        </p>
+
+        <div class="guide-steps">
+          <div class="step-card">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>Mở trình quản lý gói</h4>
+              <p>Khởi chạy Sileo hoặc Zebra trên thiết bị đã Jailbreak bằng Dopamine.</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>Thêm nguồn</h4>
+              <p>Bấm nút <strong>"Thêm vào Sileo"</strong> ở phía trên hoặc vào tab Nguồn bấm dấu (+).</p>
+            </div>
+          </div>
+
+          <div class="step-card">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <h4>Cài đặt Tweak</h4>
+              <p>Duyệt tìm tweak yêu thích, tải về và respring để trải nghiệm ngay!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Explorer -->
+    <section class="explorer-section">
+      <div class="explorer-header">
+        <div class="explorer-title-row">
+          <h2 class="explorer-title">Danh sách Gói Cài đặt</h2>
+          <span class="packages-count" id="packageCount">Đang tải...</span>
+        </div>
+
+        <div class="search-bar-wrap">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Tìm kiếm tweak, tác giả, mô tả (YouTube, Choicy, Flex, FreeFire...)..." autocomplete="off">
+        </div>
+
+        <div class="category-chips">
+          <button class="chip active" data-cat="all">Tất cả</button>
+          <button class="chip" data-cat="media">Media &amp; YouTube</button>
+          <button class="chip" data-cat="tools">Công cụ &amp; Hacks</button>
+          <button class="chip" data-cat="games">Game Mods</button>
+        </div>
+      </div>
+
+      <!-- Package Cards Grid -->
+      <div class="package-grid" id="packageGrid">
+        <!-- Rendered dynamically by js/app.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Audio Player Widget -->
+  <div class="music-player-widget" id="musicWidget">
+    <audio id="bgAudio" preload="auto">
+      <source src="le_tinh_remix_chu_duyen_1879231.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-play-btn" id="musicPlayBtn" title="Phát / Dừng nhạc nền">
+      <svg id="playIcon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+      </svg>
+      <svg id="pauseIcon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display: none;">
+        <rect x="6" y="4" width="4" height="16"></rect>
+        <rect x="14" y="4" width="4" height="16"></rect>
+      </svg>
+    </button>
+
+    <div class="music-info">
+      <div class="music-title">Lệ Tình Remix (Chữ Duyên)</div>
+      <div class="music-artist">Fewly Music</div>
+    </div>
+
+    <div class="wave-bars" id="waveBars">
+      <div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+      <div class="wave-bar"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice">Đã sao chép link nguồn!</div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://twitter.com/thaibao90" target="_blank" rel="noopener">Twitter / X</a>
+        <a href="https://github.com/fewly11/fewly11.github.io" target="_blank" rel="noopener">GitHub</a>
+        <a href="Release" target="_blank">File Release (APT)</a>
+        <a href="Packages" target="_blank">File Packages</a>
+      </div>
+      <p>© 2026 Fewly Repo • Thiết kế tối ưu cho Dopamine Rootless Jailbreak</p>
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script id="staticData">window.__STATIC_PACKAGES__ = [{"package": "com.fewly-60fps.fgotw60FPS", "name": "Unity60FPS Việt Hoá", "version": "4.5.6", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Brend0n <brendonjkding@126.com>", "description": "Buộc trò chơi Unity hiển thị ở tốc độ khung hình tùy chỉnh (60/30).", "size": 99704, "filename": "debs/60fps.deb", "deb": "60fps.deb", "dopamine_ready": true}, {"package": "com.fewly1.appshacks", "name": "Apps Hacks", "version": "4.4", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "hmodei96", "description": "Kích hoạt bản quyền cho các ứng dụng trả phí.", "size": 3143312, "filename": "debs/appshacks_4.deb", "deb": "appshacks_4.deb", "dopamine_ready": true}, {"package": "com.fewly1.appstore", "name": "AppStore+++", "version": "0.9.13-2", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "CokePokes <fewly1>", "description": "Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever", "size": 680140, "filename": "debs/appstore.deb", "deb": "appstore.deb", "dopamine_ready": true}, {"package": "net.fewly1.appsyncunified", "name": "AppSync Unified", "version": "84.0", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Linus Yang, Karen/あけみ <karen@akemi.ai>", "description": "Cài đặt tập tin .iPA trực tiếp trên thiết bị của bạn.", "size": 64388, "filename": "debs/appsyncunified_84.deb", "deb": "appsyncunified_84.deb", "dopamine_ready": true}, {"package": "cercube", "name": "Cercube YouTube VN", "version": "5.2.11N", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Majd Alfhaily", "description": "Bổ sung tính năng cho Youtube!", "size": 5976960, "filename": "debs/cercube_5.2.11.deb", "deb": "cercube_5.2.11.deb", "dopamine_ready": true}, {"package": "com.fewly1.choicy", "name": "Choicy", "version": "1.3.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "fewly1", "description": "Advanced Tweak Configuration!", "size": 117152, "filename": "debs/choicy.deb", "deb": "choicy.deb", "dopamine_ready": true}, {"package": "com.fewly.chpubg", "name": "CHPUBG", "version": "1.5.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Thx <abdulmajeed-35@hotmail.com>", "description": "Công cụ xóa các tệp trò chơi và tệp đăng nhập để bạn không bị vắng mặt lệnh cấm,", "size": 986068, "filename": "debs/chpubg.deb", "deb": "chpubg.deb", "dopamine_ready": true}, {"package": "com.fewly1.lunartime", "name": "LunarTime", "version": "1.0.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "fahlnbg", "description": "An awesome MobileSubstrate tweak!", "size": 56394, "filename": "debs/com.fahlnbg.lunartime_1.0.deb", "deb": "com.fahlnbg.lunartime_1.0.deb", "dopamine_ready": true}, {"package": "com.fewly.flyjbx", "name": "FlyJB X", "version": "1.1.5", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "XsF1re", "description": "You can HIDE Doing jailbreak your iDevice.", "size": 632552, "filename": "debs/com.fewly.flyjbx_1.1.5_iphoneos-arm.deb", "deb": "com.fewly.flyjbx_1.1.5_iphoneos-arm.deb", "dopamine_ready": true}, {"package": "com.fewly1..youtubelite", "name": "YouTubeLite Việt Hoá", "version": "0.9.2-beta", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Networke <re.errornetwork@gmail.com>", "description": "YoutubeLite Việt hoá\n Công dụng:\n * Chặn quảng cáo\n * Phát lại nền\n * Ẩn nút truyền\n * Ẩn nút tải xuống\n * Tắt cửa sổ bật lên\n * Thay đổi kiểu MiniPlayer\n * Tắt nhấn đúp\n * Mở rộng Menu chia sẻ\n * Tắt tự động phát\n * Chế độ Ipad\n + Hỗ trợ youtube phiên bản mới nhất!", "size": 55908, "filename": "debs/com.fewly1..youtubelite_0.9.2-beta_iphoneos-arm.deb", "deb": "com.fewly1..youtubelite_0.9.2-beta_iphoneos-arm.deb", "dopamine_ready": true}, {"package": "com.fewly1.afsocial", "name": "AFSocial Việt Hoá", "version": "1.2", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Azozz ALFiras", "description": "Thêm nhiều tính năng cho các ứng dụng mạng xã hội.", "size": 2168768, "filename": "debs/com.fewly1.afsocial_1.2_iphoneos-arm.deb", "deb": "com.fewly1.afsocial_1.2_iphoneos-arm.deb", "dopamine_ready": true}, {"package": "com.fewly1.appdatamanager", "name": "Apps Manager", "version": "1.6.0-9k", "section": "Utilities", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "TIGI Software <satashi2009@gmail.com>", "description": "tool to WIPE, BACKUP, RESTORE AppData for installed Apps", "size": 3709388, "filename": "debs/com.fewly1.appdatamanager_1.6.0-9k_iphoneos-arm.deb", "deb": "com.fewly1.appdatamanager_1.6.0-9k_iphoneos-arm.deb", "dopamine_ready": true}, {"package": "com.fewly1.icon", "name": "Icon Repo F", "version": "1.0", "section": "System", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "fewly1", "description": "Biểu tượng Cydia cho kho lưu trữ fewly1", "size": 22824, "filename": "debs/com.fewly1.icon.deb", "deb": "com.fewly1.icon.deb", "dopamine_ready": true}, {"package": "com.fewly1.kernbypassVN", "name": "KernBypass VN", "version": "0.0.5", "section": "System", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "akusio", "description": "kernel level jailbreak detection bypass.", "size": 142420, "filename": "debs/com.fewly1.kernbypassvn_0.0.5_iphoneos-arm.deb", "deb": "com.fewly1.kernbypassvn_0.0.5_iphoneos-arm.deb", "dopamine_ready": true}, {"package": "com.fewly1.newterm2", "name": "NewTerm (iOS 10 – 14)", "version": "2.5", "section": "Terminal Support", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "HASHBANG Productions <support@hbang.ws>", "description": "A powerful terminal app for iOS", "size": 2181356, "filename": "debs/com.fewly1.newterm2_2.5_iphoneos-arm.deb", "deb": "com.fewly1.newterm2_2.5_iphoneos-arm.deb", "dopamine_ready": true}, {"package": "com.fewly1.translationvitho", "name": "Translation Việt Hoá", "version": "1.4.9", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Sky - Pain <2398453359@qq.com>", "description": "Cong cụ dịch miễn phí\n Công dụng:\n - Dịch nhanh các tài liệu và văn bản\n - Bạn chỉ cần bôi đen phần chữ rồi chọn Translation để dịch nó ra tiếng mà bạn cần.", "size": 117964, "filename": "debs/com.fewly1.translationvitho_1.4.9_iphoneos-arm.deb", "deb": "com.fewly1.translationvitho_1.4.9_iphoneos-arm.deb", "dopamine_ready": true}, {"package": "com.fewly1.emerald", "name": "Emerald VN", "version": "1.0.3", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "LaughingQuoll", "description": "Hiển thị các tiện ích trên thanh trạng thái.", "size": 378860, "filename": "debs/emerald.deb", "deb": "emerald.deb", "dopamine_ready": true}, {"package": "com.fewly.facebookdarkmode", "name": "FacebookDarkMode", "version": "3.1.2", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "FoxfortMobile", "description": "Dark mode for Facebook", "size": 271192, "filename": "debs/facebookdarkmode_3.1.2.deb", "deb": "facebookdarkmode_3.1.2.deb", "dopamine_ready": true}, {"package": "com.fewly1.Flex3-98", "name": "Flex3", "version": "1:3~Beta98", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "John coates", "description": "Develop your own tweaks", "size": 14346562, "filename": "debs/fewly1.Flex398.deb", "deb": "fewly1.Flex398.deb", "dopamine_ready": true}, {"package": "com.fewly1.freefire", "name": "Garena Free Fire-New Beginning -JB MOD", "version": "1.56.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "TheArmKing", "description": "Garena Free Fire-New Beginning 1.56.1 - MOD", "size": 278554, "filename": "debs/freefire_1.56.1.deb", "deb": "freefire_1.56.1.deb", "dopamine_ready": true}, {"package": "com.fewly1.freepip", "name": "FreePIP", "version": "0.0.3", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "fewly1", "description": "Picture-in-Picture", "size": 9544, "filename": "debs/freepip.deb", "deb": "freepip.deb", "dopamine_ready": true}, {"package": "com.fewly1.thaovjb", "name": "Garena RoV: RoV City - JB MOD", "version": "1.37.1.4", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "TheArmKing", "description": "Garena RoV: RoV City 1.37.1.4 - MOD", "size": 266866, "filename": "debs/garenarov.deb", "deb": "garenarov.deb", "dopamine_ready": true}, {"package": "com.fewly1.IPA", "name": "Trích FILE IPA", "version": "1.1.1", "section": "System", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "c0pyn1nja", "description": "Trích File IPA một ứng dụng bất kỳ mà bạn muốn.Mình đã test trên ios 11&14 đều hoạt động rất ok nhé Các Bạn.", "size": 9962122, "filename": "debs/ipa.deb", "deb": "ipa.deb", "dopamine_ready": true}, {"package": "com.fewly1-klean.kleanhsls", "name": "Klean Việt Hoá", "version": "1.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "alimaulana", "description": "Widget tuyệt vời cho Màn hình chính và Màn hình khóa", "size": 402652, "filename": "debs/klean.kleanhsls_1.1.deb", "deb": "klean.kleanhsls_1.1.deb", "dopamine_ready": true}, {"package": "libfah", "name": "libFAH", "version": "0.1", "section": "System", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "fahlnbg", "description": "An awesome library of some sort!!", "size": 32662, "filename": "debs/libfah_0.deb", "deb": "libfah_0.deb", "dopamine_ready": true}, {"package": "com.fewly1.vnaovjb", "name": "Garena Liên Quân Mobile - JB MOD", "version": "1.37.1.4", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "TheArmKing", "description": "Garena Liên Quân Mobile 1.37.1.4 - MOD", "size": 266904, "filename": "debs/lienquan.vnaovjb_1.37.1.4.deb", "deb": "lienquan.vnaovjb_1.37.1.4.deb", "dopamine_ready": true}, {"package": "com.fewly1.little12", "name": "Little12 Việt Hoá", "version": "1.2.3", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Ryan Nair", "description": "Cử chỉ iPhone 12 và hơn thế nữa cho iOS 14", "size": 454946, "filename": "debs/little12_1.2.3.deb", "deb": "little12_1.2.3.deb", "dopamine_ready": true}, {"package": "com.fewly1.lunartime", "name": "LunarTime", "version": "0.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "fahlnbg", "description": "Add LunarCalender", "size": 27276, "filename": "debs/lunartime.deb", "deb": "lunartime.deb", "dopamine_ready": true}, {"package": "com.fewly1.mlbbvn", "name": "Bang Bang VNG MOD", "version": "1.5.46", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "TheArmKing", "description": "Mobile Legends: Bang Bang VNG 1.5.46 - MOD", "size": 493498, "filename": "debs/mlbbvn_1.5.46.deb", "deb": "mlbbvn_1.5.46.deb", "dopamine_ready": true}, {"package": "com.fewly1.myiapcracker", "name": "MyIapCracker VN", "version": "2.2", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Stem Grade", "description": "Kích hoạt bản quyền VIP và chặn quảng cáo cho các ứng dụng.", "size": 416136, "filename": "debs/myiapcracker_2.deb", "deb": "myiapcracker_2.deb", "dopamine_ready": true}, {"package": "com.fewly1.pulloverprovitho", "name": "PullOver Pro Việt Hoá", "version": "2.1.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "c1d3r <c1d3rdev@gmail.com>", "description": "Giúp bạn mở cửa sổ ứng dụng 1 cách thuận tiện.Cài xong vào cydia cài thêm Cracktool4 để crack nó!", "size": 1562662, "filename": "debs/pulloverprovitho_2.1.1.deb", "deb": "pulloverprovitho_2.1.1.deb", "dopamine_ready": true}, {"package": "rocket", "name": "Rocket Instagram VN", "version": "3.7.17", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Majd Alfhaily", "description": "Bổ sung các tính năng cho Instagram", "size": 6076702, "filename": "debs/rocket_3.7.17.deb", "deb": "rocket_3.7.17.deb", "dopamine_ready": true}, {"package": "com.fewly1.shuffle", "name": "Shuffle VN", "version": "1.2.9", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "CreatureSurvive <support@creaturecoding.com>", "description": "Phân chia các mục trong Cài đặt của bạn!", "size": 394898, "filename": "debs/shuffle.deb", "deb": "shuffle.deb", "dopamine_ready": true}, {"package": "com.fewly1.starvpnpatch", "name": "Star VPN", "version": "0.0.1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Randy420 <(null)>", "description": "Starvpn Premium", "size": 10190, "filename": "debs/starvpn.deb", "deb": "starvpn.deb", "dopamine_ready": true}, {"package": "com.fewly1.tiktoknoads", "name": "Tiktok TQ No QC", "version": "1.3", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "Agricu <1004571093@qq.com>", "description": "Chặn tất cả Quảng cáo,Tải video không có Logo,tự phắt tiếp Video.Hỗ trợ từ Ios 9 đến ios 14.2.!", "size": 20552, "filename": "debs/tiktokchina.deb", "deb": "tiktokchina.deb", "dopamine_ready": true}, {"package": "com.fewly1.tinder", "name": "Tinder Modded", "version": "1.0-1+debug", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "0xAya", "description": "Tinder vip", "size": 12726, "filename": "debs/tindervip.deb", "deb": "tindervip.deb", "dopamine_ready": true}, {"package": "com.fewly1.vpnmasterhack", "name": "VPN Master", "version": "1.1-1", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "md.furman", "description": "VPN Máter vip", "size": 6214, "filename": "debs/vpnmasterhack.deb", "deb": "vpnmasterhack.deb", "dopamine_ready": true}, {"package": "com.fewly1.youtopia", "name": "YouTopia", "version": "0.0.2", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "sinfool", "description": "Youtube: No Home Feed Ads, No Video Ads, Enable Background Playback", "size": 5692, "filename": "debs/youtopia.deb", "deb": "youtopia.deb", "dopamine_ready": true}, {"package": "youtube-reborn", "name": "YouTube Reborn", "version": "1.0.7.3", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "SarahH12099", "description": "YouTube", "size": 182678, "filename": "debs/youtube-reborn.deb", "deb": "youtube-reborn.deb", "dopamine_ready": true}, {"package": "com.fewly1.ytuhd", "name": "YTUHD SW", "version": "0.0.3.7", "section": "Tweaks", "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm", "author": "fewly1", "description": "Unlock 1440p and 2160p resolutions in iOS YouTube app.", "size": 4284, "filename": "debs/ytuhd.deb", "deb": "ytuhd.deb", "dopamine_ready": true}];</script>
+  <script src="js/app.js"></script>
+</body>
 </html>

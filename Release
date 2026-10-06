@@ -1,8 +1,23 @@
-Origin: A🍏꧁༺𝓯𝓮𝔀𝓵𝔂1༻꧂🍏A
-Label: fewly
+Origin: Fewly Repo
+Label: Fewly Repo (Dopamine Rootless)
 Suite: stable
-Version: 1.8
+Version: 2.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm64 iphoneos-arm
 Components: main
-Description: 🍏🍏🍏●▬▬▬▬๑۩★ℱℰω£ɣ❶۩★๑▬▬▬▬▬●🍏🍏🍏
+Description: Kho tweak & tiện ích hỗ trợ Jailbreak Dopamine Rootless (iOS 15 - 16.6.5) & Rootful
+MD5Sum:
+ 7f5fbf6688cfe6bfd0dcc98b239e4aad 52201 Packages
+ 376eb0d4ddc037b63339350caaccc762 9955 Packages.gz
+ dea306ff81aa5b07bd932634a1b2a9c8 11235 Packages.bz2
+ cf51d63d86a5c2c3015a73b5bfa90137 9172 Packages.xz
+SHA1:
+ 8686dd2206e6928e42310dc3468e8b1f3f5db0ab 52201 Packages
+ 33a38fc949e8ea81b795874060440d021e3e6c25 9955 Packages.gz
+ 73824a232c8228f995b1d00233a8d98600c0d2ac 11235 Packages.bz2
+ fc65b9d07625db302a8b0445819e8470772ff277 9172 Packages.xz
+SHA256:
+ 2d0e4149d4f92035d1045c9609a9f7b0afb807083e00770fc4129fff9eb8cf66 52201 Packages
+ 63d337ad386558ae9e93be7ecb526497283622e08ca40ad5fb5b90df8b8cc246 9955 Packages.gz
+ 10859c7d843dc4c17d3ef22401e35058386e6902fdeda82db62fd90728c96793 11235 Packages.bz2
+ b0f5be5420c4b8a11bdec07811089b2c68c5399489bfbe9020a0c806b61f413f 9172 Packages.xz

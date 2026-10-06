@@ -1,0 +1,19 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{300, 140}",
+  "itemCornerRadius": 12,
+  "banners": [
+    {
+      "title": "Fewly Repo - Dopamine Jailbreak",
+      "package": "com.fewly1.choicy",
+      "url": "https://fewly11.github.io/now/fewly.png",
+      "hideShadow": false
+    },
+    {
+      "title": "YouTube Reborn & Cercube",
+      "package": "youtube-reborn",
+      "url": "https://fewly11.github.io/now/fewly.png",
+      "hideShadow": false
+    }
+  ]
+}
