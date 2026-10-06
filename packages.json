@@ -7,7 +7,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Brend0n <brendonjkding@126.com>",
     "description": "Buộc trò chơi Unity hiển thị ở tốc độ khung hình tùy chỉnh (60/30).",
-    "size": 99704,
+    "size": 99752,
     "filename": "debs/60fps.deb",
     "deb": "60fps.deb",
     "dopamine_ready": true
@@ -20,7 +20,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "hmodei96",
     "description": "Kích hoạt bản quyền cho các ứng dụng trả phí.",
-    "size": 3143312,
+    "size": 3143472,
     "filename": "debs/appshacks_4.deb",
     "deb": "appshacks_4.deb",
     "dopamine_ready": true
@@ -33,7 +33,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "CokePokes <fewly1>",
     "description": "Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever",
-    "size": 680140,
+    "size": 676114,
     "filename": "debs/appstore.deb",
     "deb": "appstore.deb",
     "dopamine_ready": true
@@ -46,7 +46,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Linus Yang, Karen/あけみ <karen@akemi.ai>",
     "description": "Cài đặt tập tin .iPA trực tiếp trên thiết bị của bạn.",
-    "size": 64388,
+    "size": 60952,
     "filename": "debs/appsyncunified_84.deb",
     "deb": "appsyncunified_84.deb",
     "dopamine_ready": true
@@ -59,7 +59,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Majd Alfhaily",
     "description": "Bổ sung tính năng cho Youtube!",
-    "size": 5976960,
+    "size": 5977132,
     "filename": "debs/cercube_5.2.11.deb",
     "deb": "cercube_5.2.11.deb",
     "dopamine_ready": true
@@ -72,7 +72,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "fewly1",
     "description": "Advanced Tweak Configuration!",
-    "size": 117152,
+    "size": 186312,
     "filename": "debs/choicy.deb",
     "deb": "choicy.deb",
     "dopamine_ready": true
@@ -85,7 +85,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Thx <abdulmajeed-35@hotmail.com>",
     "description": "Công cụ xóa các tệp trò chơi và tệp đăng nhập để bạn không bị vắng mặt lệnh cấm,",
-    "size": 986068,
+    "size": 986108,
     "filename": "debs/chpubg.deb",
     "deb": "chpubg.deb",
     "dopamine_ready": true
@@ -98,7 +98,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "fahlnbg",
     "description": "An awesome MobileSubstrate tweak!",
-    "size": 56394,
+    "size": 56420,
     "filename": "debs/com.fahlnbg.lunartime_1.0.deb",
     "deb": "com.fahlnbg.lunartime_1.0.deb",
     "dopamine_ready": true
@@ -111,7 +111,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "XsF1re",
     "description": "You can HIDE Doing jailbreak your iDevice.",
-    "size": 632552,
+    "size": 714902,
     "filename": "debs/com.fewly.flyjbx_1.1.5_iphoneos-arm.deb",
     "deb": "com.fewly.flyjbx_1.1.5_iphoneos-arm.deb",
     "dopamine_ready": true
@@ -124,7 +124,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Networke <re.errornetwork@gmail.com>",
     "description": "YoutubeLite Việt hoá\n Công dụng:\n * Chặn quảng cáo\n * Phát lại nền\n * Ẩn nút truyền\n * Ẩn nút tải xuống\n * Tắt cửa sổ bật lên\n * Thay đổi kiểu MiniPlayer\n * Tắt nhấn đúp\n * Mở rộng Menu chia sẻ\n * Tắt tự động phát\n * Chế độ Ipad\n + Hỗ trợ youtube phiên bản mới nhất!",
-    "size": 55908,
+    "size": 87250,
     "filename": "debs/com.fewly1..youtubelite_0.9.2-beta_iphoneos-arm.deb",
     "deb": "com.fewly1..youtubelite_0.9.2-beta_iphoneos-arm.deb",
     "dopamine_ready": true
@@ -137,7 +137,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Azozz ALFiras",
     "description": "Thêm nhiều tính năng cho các ứng dụng mạng xã hội.",
-    "size": 2168768,
+    "size": 3483908,
     "filename": "debs/com.fewly1.afsocial_1.2_iphoneos-arm.deb",
     "deb": "com.fewly1.afsocial_1.2_iphoneos-arm.deb",
     "dopamine_ready": true
@@ -150,7 +150,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "TIGI Software <satashi2009@gmail.com>",
     "description": "tool to WIPE, BACKUP, RESTORE AppData for installed Apps",
-    "size": 3709388,
+    "size": 3707548,
     "filename": "debs/com.fewly1.appdatamanager_1.6.0-9k_iphoneos-arm.deb",
     "deb": "com.fewly1.appdatamanager_1.6.0-9k_iphoneos-arm.deb",
     "dopamine_ready": true
@@ -163,7 +163,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "fewly1",
     "description": "Biểu tượng Cydia cho kho lưu trữ fewly1",
-    "size": 22824,
+    "size": 22904,
     "filename": "debs/com.fewly1.icon.deb",
     "deb": "com.fewly1.icon.deb",
     "dopamine_ready": true
@@ -176,7 +176,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "akusio",
     "description": "kernel level jailbreak detection bypass.",
-    "size": 142420,
+    "size": 290810,
     "filename": "debs/com.fewly1.kernbypassvn_0.0.5_iphoneos-arm.deb",
     "deb": "com.fewly1.kernbypassvn_0.0.5_iphoneos-arm.deb",
     "dopamine_ready": true
@@ -189,7 +189,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "HASHBANG Productions <support@hbang.ws>",
     "description": "A powerful terminal app for iOS",
-    "size": 2181356,
+    "size": 3201988,
     "filename": "debs/com.fewly1.newterm2_2.5_iphoneos-arm.deb",
     "deb": "com.fewly1.newterm2_2.5_iphoneos-arm.deb",
     "dopamine_ready": true
@@ -202,7 +202,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Sky - Pain <2398453359@qq.com>",
     "description": "Cong cụ dịch miễn phí\n Công dụng:\n - Dịch nhanh các tài liệu và văn bản\n - Bạn chỉ cần bôi đen phần chữ rồi chọn Translation để dịch nó ra tiếng mà bạn cần.",
-    "size": 117964,
+    "size": 177562,
     "filename": "debs/com.fewly1.translationvitho_1.4.9_iphoneos-arm.deb",
     "deb": "com.fewly1.translationvitho_1.4.9_iphoneos-arm.deb",
     "dopamine_ready": true
@@ -215,7 +215,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "LaughingQuoll",
     "description": "Hiển thị các tiện ích trên thanh trạng thái.",
-    "size": 378860,
+    "size": 379048,
     "filename": "debs/emerald.deb",
     "deb": "emerald.deb",
     "dopamine_ready": true
@@ -228,7 +228,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "FoxfortMobile",
     "description": "Dark mode for Facebook",
-    "size": 271192,
+    "size": 271282,
     "filename": "debs/facebookdarkmode_3.1.2.deb",
     "deb": "facebookdarkmode_3.1.2.deb",
     "dopamine_ready": true
@@ -241,7 +241,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "John coates",
     "description": "Develop your own tweaks",
-    "size": 14346562,
+    "size": 14340484,
     "filename": "debs/fewly1.Flex398.deb",
     "deb": "fewly1.Flex398.deb",
     "dopamine_ready": true
@@ -254,7 +254,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "TheArmKing",
     "description": "Garena Free Fire-New Beginning 1.56.1 - MOD",
-    "size": 278554,
+    "size": 278598,
     "filename": "debs/freefire_1.56.1.deb",
     "deb": "freefire_1.56.1.deb",
     "dopamine_ready": true
@@ -267,7 +267,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "fewly1",
     "description": "Picture-in-Picture",
-    "size": 9544,
+    "size": 9576,
     "filename": "debs/freepip.deb",
     "deb": "freepip.deb",
     "dopamine_ready": true
@@ -280,7 +280,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "TheArmKing",
     "description": "Garena RoV: RoV City 1.37.1.4 - MOD",
-    "size": 266866,
+    "size": 266904,
     "filename": "debs/garenarov.deb",
     "deb": "garenarov.deb",
     "dopamine_ready": true
@@ -293,7 +293,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "c0pyn1nja",
     "description": "Trích File IPA một ứng dụng bất kỳ mà bạn muốn.Mình đã test trên ios 11&14 đều hoạt động rất ok nhé Các Bạn.",
-    "size": 9962122,
+    "size": 9962312,
     "filename": "debs/ipa.deb",
     "deb": "ipa.deb",
     "dopamine_ready": true
@@ -306,7 +306,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "alimaulana",
     "description": "Widget tuyệt vời cho Màn hình chính và Màn hình khóa",
-    "size": 402652,
+    "size": 402736,
     "filename": "debs/klean.kleanhsls_1.1.deb",
     "deb": "klean.kleanhsls_1.1.deb",
     "dopamine_ready": true
@@ -319,7 +319,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "fahlnbg",
     "description": "An awesome library of some sort!!",
-    "size": 32662,
+    "size": 32684,
     "filename": "debs/libfah_0.deb",
     "deb": "libfah_0.deb",
     "dopamine_ready": true
@@ -332,7 +332,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "TheArmKing",
     "description": "Garena Liên Quân Mobile 1.37.1.4 - MOD",
-    "size": 266904,
+    "size": 266940,
     "filename": "debs/lienquan.vnaovjb_1.37.1.4.deb",
     "deb": "lienquan.vnaovjb_1.37.1.4.deb",
     "dopamine_ready": true
@@ -345,7 +345,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Ryan Nair",
     "description": "Cử chỉ iPhone 12 và hơn thế nữa cho iOS 14",
-    "size": 454946,
+    "size": 455018,
     "filename": "debs/little12_1.2.3.deb",
     "deb": "little12_1.2.3.deb",
     "dopamine_ready": true
@@ -358,7 +358,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "fahlnbg",
     "description": "Add LunarCalender",
-    "size": 27276,
+    "size": 27308,
     "filename": "debs/lunartime.deb",
     "deb": "lunartime.deb",
     "dopamine_ready": true
@@ -371,7 +371,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "TheArmKing",
     "description": "Mobile Legends: Bang Bang VNG 1.5.46 - MOD",
-    "size": 493498,
+    "size": 493532,
     "filename": "debs/mlbbvn_1.5.46.deb",
     "deb": "mlbbvn_1.5.46.deb",
     "dopamine_ready": true
@@ -384,7 +384,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Stem Grade",
     "description": "Kích hoạt bản quyền VIP và chặn quảng cáo cho các ứng dụng.",
-    "size": 416136,
+    "size": 416252,
     "filename": "debs/myiapcracker_2.deb",
     "deb": "myiapcracker_2.deb",
     "dopamine_ready": true
@@ -397,7 +397,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "c1d3r <c1d3rdev@gmail.com>",
     "description": "Giúp bạn mở cửa sổ ứng dụng 1 cách thuận tiện.Cài xong vào cydia cài thêm Cracktool4 để crack nó!",
-    "size": 1562662,
+    "size": 1562742,
     "filename": "debs/pulloverprovitho_2.1.1.deb",
     "deb": "pulloverprovitho_2.1.1.deb",
     "dopamine_ready": true
@@ -410,7 +410,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Majd Alfhaily",
     "description": "Bổ sung các tính năng cho Instagram",
-    "size": 6076702,
+    "size": 6077490,
     "filename": "debs/rocket_3.7.17.deb",
     "deb": "rocket_3.7.17.deb",
     "dopamine_ready": true
@@ -423,7 +423,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "CreatureSurvive <support@creaturecoding.com>",
     "description": "Phân chia các mục trong Cài đặt của bạn!",
-    "size": 394898,
+    "size": 394930,
     "filename": "debs/shuffle.deb",
     "deb": "shuffle.deb",
     "dopamine_ready": true
@@ -436,7 +436,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Randy420 <(null)>",
     "description": "Starvpn Premium",
-    "size": 10190,
+    "size": 10234,
     "filename": "debs/starvpn.deb",
     "deb": "starvpn.deb",
     "dopamine_ready": true
@@ -449,7 +449,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "Agricu <1004571093@qq.com>",
     "description": "Chặn tất cả Quảng cáo,Tải video không có Logo,tự phắt tiếp Video.Hỗ trợ từ Ios 9 đến ios 14.2.!",
-    "size": 20552,
+    "size": 20578,
     "filename": "debs/tiktokchina.deb",
     "deb": "tiktokchina.deb",
     "dopamine_ready": true
@@ -462,7 +462,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "0xAya",
     "description": "Tinder vip",
-    "size": 12726,
+    "size": 12766,
     "filename": "debs/tindervip.deb",
     "deb": "tindervip.deb",
     "dopamine_ready": true
@@ -475,7 +475,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "md.furman",
     "description": "VPN Máter vip",
-    "size": 6214,
+    "size": 6254,
     "filename": "debs/vpnmasterhack.deb",
     "deb": "vpnmasterhack.deb",
     "dopamine_ready": true
@@ -488,7 +488,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "sinfool",
     "description": "Youtube: No Home Feed Ads, No Video Ads, Enable Background Playback",
-    "size": 5692,
+    "size": 5760,
     "filename": "debs/youtopia.deb",
     "deb": "youtopia.deb",
     "dopamine_ready": true
@@ -501,7 +501,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "SarahH12099",
     "description": "YouTube",
-    "size": 182678,
+    "size": 182734,
     "filename": "debs/youtube-reborn.deb",
     "deb": "youtube-reborn.deb",
     "dopamine_ready": true
@@ -514,7 +514,7 @@
     "architecture": "iphoneos-arm64 (Dopamine) / iphoneos-arm",
     "author": "fewly1",
     "description": "Unlock 1440p and 2160p resolutions in iOS YouTube app.",
-    "size": 4284,
+    "size": 6426,
     "filename": "debs/ytuhd.deb",
     "deb": "ytuhd.deb",
     "dopamine_ready": true
