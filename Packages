@@ -310,6 +310,149 @@ SHA1: 64363271f21823ed4e892c86c638b375ab8c2765
 SHA256: 2b935c8cafc0078d1e1ff48ff6f04ccfde3a98bf1a2c4a27be49d7a9333c316a
 Icon: file:///Applications/Cydia.app/Sections/tinhchinhhh.png
 
+Package: com.mtac.ampere
+Name: Ampere
+Version: 1.4
+Architecture: iphoneos-arm64
+Description: iOS 16 Style Battery Indicator
+Maintainer: MTAC
+Author: MTAC
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Installed-Size: 604
+Filename: ./debs/com.mtac.ampere_1.4_iphoneos-arm64.deb
+Size: 101292
+MD5sum: 4953fb6aa0044cdb83b5b689810277d2
+SHA1: 587fb4d6e01c4f42059c092928ca1040a99d56bf
+SHA256: 4ef245a64f319c20c79ce8f5f4d40783d8d66ae822646349d6396e5ffaff6c15
+
+Package: com.nightwind.boldersreborn
+Name: Bolders Reborn
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Description: Bigger and bolder folders, remade!
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Author: Nightwind <nightwinddev@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.lizynz.folderx.rootless, com.lizynz.folderx
+Installed-Size: 5847
+Depiction: https://chariz.com/get/boldersreborn
+Tag: compatible_min::ios14.0
+Filename: ./debs/com.nightwind.boldersreborn_1.2.0_iphoneos-arm64.deb
+Size: 4867516
+MD5sum: ffb8a98bccac1e3b1bb3cd5427570796
+SHA1: cee773b5c656749d64a3a3925eed6ea76a321200
+SHA256: 87173360c6754b6a6f9e65a9fae16cab1e42a9733b9bd03b13b872221576070e
+Icon: https://img.chariz.cloud/icon/boldersreborn/icon@3x.png
+
+Package: com.opa334.choicy
+Name: Choicy
+Version: 1.5.4-2
+Architecture: iphoneos-arm64
+Description: Advanced Tweak Configuration!
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Installed-Size: 1120
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Filename: ./debs/com.opa334.choicy_1.5.4-2_iphoneos-arm64.deb
+Size: 161680
+MD5sum: 059def2744278086705f489efe8e1430
+SHA1: 25ef80a1d5f5a44af56ec42ad2160d4db1e343cb
+SHA256: 697db463d12244b70a7f399cc049f3e4faec9b4dd4949464983eedb188db5af2
+
+Package: com.opa334.libsandy
+Name: libSandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64
+Description: Securely extend the sandbox of system processes and user applications
+Maintainer: opa334
+Author: opa334
+Section: System
+Installed-Size: 420
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Tag: role::developer
+Filename: ./debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18154
+MD5sum: f0910991262882d4ffc0b60a5dcc191b
+SHA1: ce71d90d0165ee7325683d4465fb271fc98451c1
+SHA256: 568c98650d8b452d68a1f893ec87f02a4f7082848b1abeec80531c4c9d484065
+
+Package: com.opa334.notrecording
+Name: NotRecording
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Description: Spoof screen recording detection!
+Maintainer: opa334
+Author: opa334
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.altlist
+Installed-Size: 352
+Filename: ./debs/com.opa334.notrecording_1.1.1_iphoneos-arm64.deb
+Size: 15844
+MD5sum: 2eec55444a92beda10efb056e6ab7910
+SHA1: 0a9b320d1c82d5f8ac75713c69d6f77dd150b798
+SHA256: 3f4dba6865847eff845dc8157632b559c9ff180163eb119c6d0ad5a3f734b444
+
+Package: com.opa334.whitepointmodule
+Name: White Point Module
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Description: Reduce White Point from Control Center!
+Maintainer: opa334
+Author: opa334
+Section: Control Center (Modules)
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware (>= 11.0)
+Installed-Size: 216
+Depiction: https://opa334.github.io/depic/WhitePointModule/index.html
+Filename: ./debs/com.opa334.whitepointmodule_1.2.3_iphoneos-arm64.deb
+Size: 15138
+MD5sum: b3961e60275615d1dfc9b9d142ef526b
+SHA1: f052c7c044c29df34ba831fd4531d28017a1f8ee
+SHA256: 328332a2404239da7aafece55c18ae525f7cd69727feb784559844a5b1f52b39
+SileoDepiction: https://opa334.github.io/depic/WhitePointModule/sileo.json
+Icon: https://opa334.github.io/depic/WhitePointModule/Resources/icon.png
+
+Package: com.ryannair05.cylinder
+Name: Cylinder Reborn
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Description: Make your icons dance
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 0.3), preferenceloader
+Installed-Size: 1253
+Depiction: https://chariz.com/get/cylinder-reborn
+Tag: compatible_min::ios11.0
+Filename: ./debs/com.ryannair05.cylinder_1.1.2_iphoneos-arm64.deb
+Size: 222944
+MD5sum: fb8ba408073174e2273cdfe2c4a510d9
+SHA1: d26fea9b7783b09e4b72734b150b0ace988b1c25
+SHA256: 1ff9112d1c9b3aa4f53527c52f00ae34ec0827fff56d11ed5d8554708d551dd5
+Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
+
+Package: com.spark.snowboard
+Name: SnowBoard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64
+Description: Snowboard theming engine
+Maintainer: Spark
+Author: Spark & Dennis D. Bednarz
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Installed-Size: 3268
+Filename: ./debs/com.spark.snowboard_1.5.37-Beta4-rootless.deb
+Size: 1128570
+MD5sum: a7239a85eee273dc2f297878702a97b8
+SHA1: 1b3e80eb10ea03f6ed54f23262789ef37aa02656
+SHA256: 21c4686ced56eede121bc91efcaae27dc2c553857b565351361cd1ae772929d0
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+
 Package: com.fewly1.emerald
 Name: Emerald VN
 Version: 1.0.3
@@ -516,6 +659,26 @@ MD5sum: 10060a2f7e7c991a65b892c180684ba6
 SHA1: 9f0ffe31a7e0ccdac1109421cdd6609142daa133
 SHA256: 46c0ca74d7187be1f24558c4b1f4597e26d6efae07e986825351ae4e621c2c4a
 
+Package: me.lau.atria
+Name: Atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Description: A proper homescreen layout editor for iOS 13-16
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Author: ren7995 <lau7995ren@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Installed-Size: 886
+Depiction: https://chariz.com/get/atria
+Tag: compatible_min::ios13.0
+Filename: ./debs/me.lau.atria_1.4.1_iphoneos-arm64.deb
+Size: 236990
+MD5sum: 0ddd2bd09fe99cdbfbc14ef11c03f463
+SHA1: 6ac4631697e08a7bd4a24475dc80027f5cd5966c
+SHA256: 43b8515cda84b44d6cabea98704c1dda155d38a3235c9048795fb19b5381571f
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+
 Package: com.fewly1.mlbbvn
 Name: Bang Bang VNG MOD
 Version: 1.5.46
@@ -674,6 +837,50 @@ Size: 6254
 MD5sum: 250b2c9af810114597b7ee95fe6075c0
 SHA1: f7bd877673e687d0ce535e4de448a3e70a76ebf5
 SHA256: e62b4594627e62e2460c255e98970e3bccd244328e649561cbf363c800b9cd1b
+
+Package: ws.hbang.alderis
+Name: Alderis Color Picker
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Description: Color picker support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Installed-Size: 2463
+Depiction: https://chariz.com/get/alderis
+Tag: role::developer, compatible_min::ios12.0
+Filename: ./debs/ws.hbang.alderis_1.2.3_iphoneos-arm64.deb
+Size: 290546
+MD5sum: 3f9e6b11866f656255a80d57ddb7f258
+SHA1: 9f3243b042f64f1a36509be4c198148547148336
+SHA256: cdd1f47c08843bde9b0e34ec07697a29dcdd56f8493fe5503f8085e7c1d5fb76
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+
+Package: ws.hbang.newterm3
+Name: NewTerm 3 Beta
+Version: 3.0~beta1
+Architecture: iphoneos-arm64
+Description: Powerful terminal app for iOS
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Terminal Support
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Installed-Size: 14899
+Depiction: https://chariz.com/get/newterm-beta
+Tag: compatible_min::ios14.0
+Filename: ./debs/ws.hbang.newterm3_3.0~beta1_iphoneos-arm64.deb
+Size: 3836904
+MD5sum: fed66db963cb17131b239dc6deb7058c
+SHA1: 4c9327fb9cd3ccdade8247bab90bcf12338b6be2
+SHA256: cbd965fbdc25634e4e447ba4609598a67a0f354a63fce2dbf9e0dce99042b055
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 
 Package: com.fewly1.youtopia
 Name: YouTopia

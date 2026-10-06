@@ -214,8 +214,20 @@ def build_repo():
         "itemCornerRadius": 12,
         "banners": [
             {
-                "title": "Fewly Repo - Dopamine Jailbreak",
-                "package": "com.fewly1.choicy",
+                "title": "Fewly Repo - Dopamine Rootless",
+                "package": "com.opa334.choicy",
+                "url": f"{REPO_URL}now/fewly.png",
+                "hideShadow": False
+            },
+            {
+                "title": "SnowBoard - Giao diện & Biểu tượng",
+                "package": "com.spark.snowboard",
+                "url": f"{REPO_URL}now/fewly.png",
+                "hideShadow": False
+            },
+            {
+                "title": "Atria - Tùy biến màn hình chính",
+                "package": "me.lau.atria",
                 "url": f"{REPO_URL}now/fewly.png",
                 "hideShadow": False
             },

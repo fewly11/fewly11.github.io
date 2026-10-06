@@ -4,8 +4,20 @@
   "itemCornerRadius": 12,
   "banners": [
     {
-      "title": "Fewly Repo - Dopamine Jailbreak",
-      "package": "com.fewly1.choicy",
+      "title": "Fewly Repo - Dopamine Rootless",
+      "package": "com.opa334.choicy",
+      "url": "https://fewly11.github.io/now/fewly.png",
+      "hideShadow": false
+    },
+    {
+      "title": "SnowBoard - Giao di\u1ec7n & Bi\u1ec3u t\u01b0\u1ee3ng",
+      "package": "com.spark.snowboard",
+      "url": "https://fewly11.github.io/now/fewly.png",
+      "hideShadow": false
+    },
+    {
+      "title": "Atria - T\u00f9y bi\u1ebfn m\u00e0n h\u00ecnh ch\u00ednh",
+      "package": "me.lau.atria",
       "url": "https://fewly11.github.io/now/fewly.png",
       "hideShadow": false
     },
