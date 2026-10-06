@@ -243,21 +243,19 @@ def build_repo():
         json.dump(featured, f, indent=2)
     print("Written sileo-featured.json")
 
-    # Update index.html static packages fallback
+    # Update index.html static packages fallback cleanly
     if os.path.exists("index.html"):
         with open("index.html", "r", encoding="utf-8") as f:
             html = f.read()
-        marker = "<!-- STATIC_PACKAGES_DATA -->"
-        script_injection = f'<script id="staticData">window.__STATIC_PACKAGES__ = {json.dumps(json_packages, ensure_ascii=False)};</script>'
-        if marker in html:
-            parts = html.split(marker)
-            # if already contains static script before next tag
-            html = re.sub(r'<script id="staticData">.*?</script>', script_injection, html, flags=re.DOTALL)
-        elif '<script src="js/app.js"></script>' in html:
-            html = html.replace('<script src="js/app.js"></script>', f'{script_injection}\n  <script src="js/app.js"></script>')
+        # Remove any existing staticData script blocks
+        html = re.sub(r'<script id="staticData">.*?</script>\s*', '', html, flags=re.DOTALL)
+        
+        script_injection = f'<script id="staticData">window.__STATIC_PACKAGES__ = {json.dumps(json_packages, ensure_ascii=False)};</script>\n  '
+        if '<script src="js/app.js' in html:
+            html = re.sub(r'<script src="js/app.js[^"]*"></script>', f'{script_injection}<script src="js/app.js?v=2.1"></script>', html)
             with open("index.html", "w", encoding="utf-8") as f:
                 f.write(html)
-            print("Injected static packages fallback into index.html")
+            print(f"Cleanly injected {len(json_packages)} static packages into index.html")
 
     # Generate Release file
     release_files = ["Packages", "Packages.gz", "Packages.bz2", "Packages.xz"]

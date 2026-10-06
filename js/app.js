@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2800);
   }
 
-  // Load Packages
-  fetch('packages.json')
+  // Load Packages (busting browser cache with timestamp)
+  fetch('packages.json?t=' + Date.now())
     .then(res => res.json())
     .then(data => {
       allPackages = data;
